@@ -1,0 +1,13 @@
+pytorch
+transformers
+together
+openai
+protobuf
+sentencepiece
+evaluate
+pandas
+sacrebleu
+rouge-score
+argparse
+datasets
+dataclasses
