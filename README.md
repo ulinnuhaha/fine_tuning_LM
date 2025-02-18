@@ -14,7 +14,7 @@ python zsl_main.py \
 If you want to change the API provider and the LLM version please go to `fine_tuning` repository.
 
 ## Fine-tuning Seq2Seq models
-If you want to perform fine-tuning Seq2seq (Sequence to sequence) models locally (on server) such as NLLB-200's distilled 1.3B and mBART-50 variants, run the following command:
+If you want to perform fine-tuning Seq2seq (Sequence to sequence) models locally (on server) such as NLLB-200's 1.3B and mBART-50 variants, run the following command:
 ```
 python FT_seq2seq.py \
   --model_checkpoint facebook/nllb-200-1.3B \
