@@ -37,13 +37,13 @@ def main():
     if args.target_lang == 'english':
         test_data['english'] = " "
         source_lang = 'ladin'
-        from_lang = "ladin",
+        from_lang = "ladin"
         to_lang =  "english"
         path_f = 'ladin2english'
     else:
         test_data['ladin'] = " "
         source_lang = 'english'
-        from_lang = "english",
+        from_lang = "english"
         to_lang =  "ladin"
         path_f = 'english2ladin'  
     
