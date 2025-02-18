@@ -1,7 +1,6 @@
 pytorch
 transformers
 together
-openai
 protobuf
 sentencepiece
 evaluate
