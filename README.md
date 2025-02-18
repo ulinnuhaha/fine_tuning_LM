@@ -1,7 +1,7 @@
 # Fine-tuning Language Model (LM) 
 This repository focuses on exploring fine-tuning techniques for machine translation (MT) using Large Language Models (LLMs). We leverage models like Llama,mBART, and NLLB to perform fine-tuning. To run the code in this repository, you should already have a parallel sentence dataset in CSV format
 
-## Fine-tuning Llama
+## Fine-tuning LLM of Llama
 If you want to perform fine-tuning LLM, specifically Llama using TogetherAI API, run the following command:
 ```
 python zsl_main.py \
@@ -13,8 +13,8 @@ python zsl_main.py \
 ```
 If you want to change the API provider and the LLM version please go to `fine_tuning` repository.
 
-## Fine-tuning NLLB
-If you want to perform fine-tuning NLLB-200's distilled 1.3B and mBART-50 variants, run the following command:
+## Fine-tuning Seq2Seq models
+If you want to perform fine-tuning Seq2seq (Sequence to sequence) models such as NLLB-200's distilled 1.3B and mBART-50 variants, run the following command:
 ```
 python fsl_main.py \
   --model_name llama_31_8b \
