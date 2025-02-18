@@ -1,4 +1,4 @@
-# Fie-tuning Language Model (LM) 
+# Fine-tuning Language Model (LM) 
 This repository focuses on exploring fine-tuning techniques for machine translation (MT) using Large Language Models (LLMs). We leverage models like Llama,mBART, and NLLB to perform fine-tuning. To run the code in this repository, you should already have a parallel sentence dataset in CSV format
 
 ## Fine-tuning Llama
