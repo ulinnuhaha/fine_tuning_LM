@@ -22,3 +22,12 @@ python FT_seq2seq.py \
   --data_dir ./dataset
   --file_name ./pair_sentences
 ```
+
+After you get the fine-tuned model, you can perform the translation by running the following command:
+```
+python run_seq2seq_translation.py \
+  --model_name_or_path ./pretrained_model/nllb-200-1.3B_Eng2Lad/ \
+  --data_dir ./dataset \
+  --file_name ./pair_sentences
+  --lang_target ./ladin
+```
