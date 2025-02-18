@@ -16,12 +16,9 @@ If you want to change the API provider and the LLM version please go to `fine_tu
 ## Fine-tuning Seq2Seq models
 If you want to perform fine-tuning Seq2seq (Sequence to sequence) models locally (on server) such as NLLB-200's distilled 1.3B and mBART-50 variants, run the following command:
 ```
-python fsl_main.py \
-  --model_name llama_31_8b \
-  --dataset ./data_dir/dataset \
-  --target_lang italian \
-  --test_data ./data_dir/test_data \
-  --batch_size 25 \
-  --save_dir ./save_results
+python FT_seq2seq.py \
+  --model_checkpoint facebook/nllb-200-1.3B \
+  --cache_dir ./pretrained_model \
+  --data_dir ./dataset
+  --file_name ./pair_sentences
 ```
-
