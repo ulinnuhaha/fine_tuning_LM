@@ -2,14 +2,9 @@
 This repository focuses on exploring fine-tuning techniques for machine translation (MT) using Large Language Models (LLMs). We leverage models like Llama, mBART, and NLLB to perform fine-tuning of MT from Unseen language (new language). Here, we set English-Ladin as a translation system where 'Ladin' is the new language. To run the code in this repository, you should already have a parallel sentence dataset in CSV format containing two columns (Source and target sentences)
 
 ## Fine-tuning LLM of Llama
-If you want to perform fine-tuning LLM, specifically Llama using TogetherAI API, run the following command:
+If you want to perform fine-tuning LLM, specifically Llama using TogetherAI API, please go to the following file:
 ```
-python zsl_main.py \
-  --model_name llama_31_8b \
-  --target_lang italian \
-  --test_data ./data_dir/test_data \
-  --batch_size 25 \
-  --save_dir ./save_results
+FT_llama.ipynb
 ```
 If you want to change the API provider and the LLM version please go to `fine_tuning` repository.
 
